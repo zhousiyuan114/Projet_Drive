@@ -8,6 +8,7 @@ html {
 
 /*----- Définition des marges et de la couleur de fond des pages -----*/
 body {
+        font-family:Georgia; 
 	margin-left: 20px;
 	margin-top: 20px;
 	margin-right: 20px;
@@ -16,6 +17,10 @@ body {
 	color: #000000;
 }
 
+#entete{
+    height:15%;
+    
+} 
 /*----- Mise en forme de la balise h3 -----*/
 h1 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
