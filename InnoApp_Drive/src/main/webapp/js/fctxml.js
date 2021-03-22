@@ -4,13 +4,13 @@
  * On utilise la propriété 'responseText' de l'objet XMLHttpRequest afin
  * de récupérer sous forme de texte le flux envoyé par le serveur.
  */
-function afficheXML ()
+function afficheDetail ()
 	{
 	// Objet XMLHttpRequest.
 	var xhr = new XMLHttpRequest();
 
 	// Requête au serveur avec les paramètres éventuels.
-	xhr.open("GET","ServletAuteur");
+	xhr.open("GET","ServletDetailProd");
 
 	// On précise ce que l'on va faire quand on aura reçu la réponse du serveur.
 	xhr.onload = function()
@@ -94,7 +94,7 @@ function testEncodeUrl ()
  */
 document.addEventListener("DOMContentLoaded", () => {
 
-	document.getElementById("bt_zone").addEventListener("click",afficheXML);
+	document.getElementById("bt_Ajouter").addEventListener("click",afficheXML);
 	document.getElementById("bt_Url").addEventListener("click",testEncodeUrl);
 
 });
