@@ -9,14 +9,37 @@ and open the template in the editor.
         <title>Detail d'un produit</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/Style.css" type="text/css" />
     </head>
     <body>
-        <div><input type="text"> <button>Rechercher</button></div>
-        <div><a href="">Se connecter</a> <a href="">Panier</a></div>
+		<div id="entete">
+			<div>
+				<span id="recherche">
+					<input type="text"><button>Rechercher</button>
+				</span>
+				<span id="connexion">
+					<a href="">Se connecter</a>
+				</span>
+				<span id="panier">
+					<a href="">Panier</a>
+				</span>
+			</div>
+		</div>
+		<hr/>
+            
+		<div class="left"><div id="image">hhhhhhhh</div></div>
+		<div class="right">
+	
+			<div id="nomProduit">Fraise</div>
+			<div id="description">Tian</div>
+			<div id="prix">3.5€/kilo</div>
+			<div>
+				Quantité<input type="number" min="0" id="qte"/>
+				<button id="btnAjouter">Ajouter à panier</button>
+			</div>
+			<br/><a href="">Retour</a>
 
-        <div>------------------detail---------------------</div>
-            <div id="imageBD"></div>
-
+		</div>
                         
 
         <!--	<script type="text/JavaScript" src="js/fctxml.js"></script>-->
